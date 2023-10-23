@@ -7,9 +7,9 @@ env.read_env()
 # .env fayl ichidan quyidagilarni o'qiymiz
 BOT_TOKEN = env.str("BOT_TOKEN")  # Bot toekn
 ADMINS = env.list("ADMINS")  # adminlar ro'yxati, "@doston_shernazarov"
-IP = env.str("ip")  # Xosting ip manzili
+#IP = env.str("ip")  # Xosting ip manzili
 CHANNELS = ["-1001818325668","-1001824913626"]
-PROVIDER_TOKEN_TRAZZO = env.str("PROVIDER_TOKEN_TRAZZA")
+#PROVIDER_TOKEN_TRAZZO = env.str("PROVIDER_TOKEN_TRAZZA")
 
 
 ABOUT_MYSELF = "Mening ismim <b>Doston</b>. \n"
