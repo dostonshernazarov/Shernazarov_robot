@@ -27,7 +27,12 @@ async def fikr_func(message: Message):
     await message.answer("Telefon raqamingizni yuboring! (91-321-44-55)", reply_markup=cancel)
     await FikrData.fikrNum.set()
 
-@dp.message_handler(text="❌ Bekor qilish")
+@dp.message_handler(text="❌ Bekor qilish", state=FikrData.fikr)
+async def cancel_boglanish(call:CallbackQuery, state:FSMContext):
+    await call.answer("Buyruq bekor qilindi!")
+    await state.finish()
+
+@dp.message_handler(text="❌ Bekor qilish", state=FikrData.fikrNum)
 async def cancel_boglanish(call:CallbackQuery, state:FSMContext):
     await call.answer("Buyruq bekor qilindi!")
     await state.finish()
