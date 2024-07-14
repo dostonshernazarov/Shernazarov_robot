@@ -49,7 +49,7 @@ Make sure you have the following installed:
 2. Open your Telegram app and search for your bot using its username. Start a chat with your bot and use the available commands.
 
 ## Project Structure
-- **bot.py**: The main bot application file.
+- **app.py**: The main bot application file.
 - **handlers/**: Directory containing handler modules for different bot commands and events.
 - **utils/**: Utility functions and helpers.
 - **database/**: Contains SQLite database files and scripts.
