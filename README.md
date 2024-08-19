@@ -1,7 +1,7 @@
 # MyAssistantBot
 
 ## Overview
-MyAssistantBot is a personal assistant Telegram bot built using the aiogram 2.24 library. The bot helps automate various tasks, provides convenient features to assist in daily activities, and facilitates communication through a Telegram channel.
+MyAssistantBot is a personal assistant Telegram bot built using  aiogram 2.24 library. The bot helps automate various tasks, provides convenient features to assist in daily activities, and facilitates communication through a Telegram channel.
 
 ## Features
 - **Task Automation**: Automate routine tasks.
